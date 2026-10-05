@@ -1,0 +1,18 @@
+2.6 Pertanyaan Penelitian
+
+Berdasarkan kajian pustaka dan landasan teori yang telah diuraikan, pertanyaan penelitian dalam penelitian ini adalah sebagai berikut:
+
+1. Bagaimana proses pengolahan data historis pariwisata dan data Tingkat Penghunian Kamar (TPK) hotel di Provinsi Banten agar dapat digunakan sebagai dataset untuk pemodelan machine learning?
+2. Bagaimana penerapan algoritma Random Forest Regression dalam memprediksi Tingkat Penghunian Kamar (TPK) hotel di Provinsi Banten berdasarkan data historis pariwisata?
+3. Seberapa baik kinerja algoritma Random Forest Regression dalam memprediksi Tingkat Penghunian Kamar (TPK) hotel di Provinsi Banten berdasarkan nilai MAE, RMSE, dan R²?
+4. Bagaimana hasil prediksi yang dihasilkan oleh model dapat digunakan untuk mengetahui pola perubahan Tingkat Penghunian Kamar hotel di Provinsi Banten?
+
+2.7 Hipotesis Penelitian
+
+Apabila penelitian ini mensyaratkan adanya hipotesis, hipotesis yang digunakan adalah:
+
+H1: Algoritma Random Forest Regression dapat digunakan untuk memprediksi Tingkat Penghunian Kamar (TPK) hotel di Provinsi Banten berdasarkan data historis pariwisata dengan tingkat kinerja prediksi yang dapat diukur menggunakan MAE, RMSE, dan R².
+
+H0: Algoritma Random Forest Regression tidak dapat menghasilkan prediksi Tingkat Penghunian Kamar (TPK) hotel di Provinsi Banten dengan kinerja prediksi yang memadai berdasarkan nilai MAE, RMSE, dan R².
+
+Hipotesis tersebut selanjutnya diuji melalui proses pembentukan model, pengujian menggunakan data uji, serta evaluasi kinerja model pada Bab IV.
