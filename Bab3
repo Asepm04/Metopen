@@ -1,0 +1,302 @@
+BAB III
+
+METODOLOGI PENELITIAN
+
+3.1 Jenis Penelitian
+
+Penelitian ini merupakan penelitian kuantitatif dengan pendekatan prediktif menggunakan metode machine learning. Penelitian kuantitatif digunakan karena data yang dianalisis berbentuk angka, yaitu Tingkat Penghunian Kamar (TPK) hotel dan indikator pariwisata yang tersedia dalam publikasi resmi.
+
+Pendekatan prediktif digunakan untuk membangun model yang dapat memperkirakan nilai TPK hotel berdasarkan pola yang terdapat pada data historis. Algoritma yang digunakan adalah Random Forest Regression. Algoritma ini membentuk sejumlah pohon keputusan regresi dan menggabungkan hasil prediksinya untuk menghasilkan nilai akhir.
+
+Penelitian dilakukan melalui tahapan pengumpulan data, pengolahan data, eksplorasi data, pembentukan model, pengujian model, evaluasi kinerja, dan analisis hasil prediksi.
+
+3.2 Objek Penelitian
+
+Objek penelitian ini adalah Tingkat Penghunian Kamar (TPK) hotel berbintang di Provinsi Banten berdasarkan data historis bulanan.
+
+TPK digunakan sebagai variabel target karena dapat menggambarkan persentase kamar hotel yang terpakai selama periode tertentu. Data TPK akan dianalisis untuk mengetahui pola perubahan dari waktu ke waktu dan digunakan sebagai dasar pembentukan model prediksi.
+
+Penelitian dibatasi pada data tingkat provinsi agar proses pengumpulan, pengolahan, dan analisis data dapat dilakukan secara konsisten.
+
+3.3 Lokasi dan Periode Penelitian
+
+Penelitian berfokus pada Provinsi Banten. Data yang direncanakan untuk dianalisis adalah data bulanan selama periode Januari 2022 sampai Desember 2024.
+
+Pemilihan periode tersebut didasarkan pada ketersediaan data historis bulanan TPK hotel berbintang yang dipublikasikan oleh Badan Pusat Statistik Provinsi Banten.
+
+Periode tersebut mencakup 36 bulan. Setelah proses pembersihan data dan pembentukan variabel historis, jumlah observasi yang dapat digunakan dalam pemodelan akan ditentukan berdasarkan kelengkapan dataset akhir.
+
+3.4 Jenis dan Sumber Data
+
+Penelitian ini menggunakan data sekunder. Data sekunder merupakan data yang telah dikumpulkan dan dipublikasikan oleh lembaga atau pihak lain, kemudian digunakan kembali untuk keperluan penelitian.
+
+Sumber data utama penelitian adalah Badan Pusat Statistik (BPS) dan publikasi statistik resmi yang berkaitan dengan perhotelan dan pariwisata Provinsi Banten.
+
+Sumber data yang digunakan meliputi:
+
+1. Data Tingkat Penghunian Kamar (TPK) hotel berbintang menurut bulan di Provinsi Banten.
+2. Data rata-rata lama menginap tamu hotel apabila tersedia pada periode yang sama.
+3. Data kalender, yaitu tahun dan bulan pengamatan.
+4. Data TPK bulan sebelumnya yang dibentuk dari data historis sebagai variabel masukan model.
+
+Data TPK dan rata-rata lama menginap dapat diperoleh melalui tabel statistik resmi BPS Provinsi Banten pada alamat berikut:
+
+https://banten.bps.go.id/id/statistics-table/2/MzA5IzI%3D/tingkat-penghunian-kamar-tpk-dan-rata-rata-lama-menginap-tamu-rlmt-hotel-berbintang-menurut-bulan-di-provinsi-banten.html
+
+Publikasi pendukung mengenai statistik hotel dan akomodasi lainnya di Provinsi Banten dapat diakses melalui:
+
+https://banten.bps.go.id/id/publication/2025/10/31/00730db0a1eea80eba87fe22/statistik-hotel-dan-akomodasi-lainnya-provinsi-banten-2024-2025.html
+
+Seluruh data yang digunakan akan dicatat berdasarkan periode, satuan pengukuran, dan sumber publikasinya. Data dari sumber yang berbeda hanya akan digabungkan apabila definisi, periode, dan cakupan pengukurannya sesuai.
+
+3.5 Variabel Penelitian
+
+Variabel penelitian dibagi menjadi variabel target dan variabel masukan.
+
+3.5.1 Variabel Target
+
+Variabel target atau variabel dependen adalah Tingkat Penghunian Kamar (TPK) hotel berbintang di Provinsi Banten dalam satuan persen.
+
+Variabel tersebut menjadi nilai yang akan diprediksi oleh algoritma Random Forest Regression.
+
+3.5.2 Variabel Masukan
+
+Variabel masukan atau variabel independen yang direncanakan meliputi:
+
+1. Tahun pengamatan, untuk menunjukkan periode tahunan data.
+2. Bulan pengamatan, untuk menunjukkan periode bulanan dan membantu model mengenali pola musiman.
+3. TPK bulan sebelumnya, untuk memberikan informasi mengenai kondisi penghunian kamar pada periode terdahulu.
+4. Rata-rata lama menginap tamu, apabila data tersedia secara konsisten dan sesuai dengan periode pengamatan.
+
+Variabel rata-rata lama menginap hanya akan digunakan apabila datanya tersedia dan dapat dipadankan dengan periode TPK. Apabila data tersebut tidak lengkap atau tidak sesuai, variabel tersebut tidak akan dipaksakan untuk digunakan dalam pemodelan.
+
+TPK bulan sebelumnya dibentuk melalui proses penggeseran data (lag feature). Sebagai contoh, TPK Januari digunakan sebagai variabel masukan untuk memprediksi TPK Februari.
+
+Dalam penerapan prediksi, variabel masukan harus berasal dari informasi yang tersedia pada saat prediksi dilakukan. Nilai TPK aktual pada bulan yang sedang diprediksi tidak boleh digunakan sebagai variabel masukan karena dapat menyebabkan kebocoran data (data leakage).
+
+3.6 Teknik Pengumpulan Data
+
+Pengumpulan data dilakukan menggunakan teknik dokumentasi dan studi pustaka.
+
+3.6.1 Teknik Dokumentasi
+
+Teknik dokumentasi dilakukan dengan mengumpulkan data dari tabel statistik dan publikasi resmi BPS. Data yang dikumpulkan meliputi TPK hotel berbintang dan indikator pendukung yang tersedia.
+
+Tahapan pengumpulan data adalah sebagai berikut:
+
+1. Mengakses situs resmi BPS Provinsi Banten.
+2. Menentukan tabel atau publikasi yang memuat data TPK hotel berbintang.
+3. Mengumpulkan data bulanan untuk periode Januari 2022 sampai Desember 2024.
+4. Mengumpulkan data pendukung yang sesuai dengan periode penelitian.
+5. Mencatat sumber dan satuan setiap variabel.
+6. Memeriksa kelengkapan data sebelum proses pengolahan.
+
+3.6.2 Studi Pustaka
+
+Studi pustaka dilakukan dengan mempelajari buku, artikel jurnal ilmiah, dokumentasi perangkat lunak, dan publikasi resmi yang berkaitan dengan machine learning, prediksi tingkat penghunian kamar hotel, Random Forest Regression, serta metode evaluasi model.
+
+Salah satu penelitian yang relevan adalah penelitian Kozlovskis, Liu, Lace, dan Meng (2023), yang membahas penerapan beberapa algoritma machine learning untuk memprediksi tingkat penghunian hotel.
+
+Hasil studi pustaka digunakan untuk memperkuat landasan pemilihan metode dan membantu menyusun prosedur pemodelan yang sesuai dengan tujuan penelitian.
+
+3.7 Teknik Pengolahan Data
+
+Data yang telah dikumpulkan akan diolah melalui beberapa tahapan.
+
+3.7.1 Pemeriksaan Data
+
+Pemeriksaan data dilakukan untuk mengetahui apakah terdapat data kosong, data ganda, ketidaksesuaian format tanggal, atau perbedaan satuan pengukuran.
+
+Setiap permasalahan yang ditemukan akan diperiksa sebelum dilakukan pemodelan.
+
+3.7.2 Pembersihan Data
+
+Pembersihan data dilakukan dengan memperbaiki format yang tidak konsisten, menghapus duplikasi yang tidak diperlukan, serta menangani data kosong berdasarkan kondisi dan sumber data.
+
+Nilai yang tidak tersedia tidak akan langsung diganti dengan angka sembarang. Penanganannya harus mempertimbangkan sifat data dan informasi yang tersedia dari sumber resmi.
+
+3.7.3 Integrasi Data
+
+Integrasi data dilakukan dengan menggabungkan data TPK dan variabel pendukung berdasarkan periode bulan dan tahun.
+
+Setiap variabel harus memiliki cakupan waktu yang sesuai. Apabila terdapat perbedaan definisi atau periode pelaporan, data harus diperiksa terlebih dahulu sebelum digabungkan.
+
+3.7.4 Pembentukan Variabel Historis
+
+Pada tahap ini, variabel tahun dan bulan disusun berdasarkan tanggal pengamatan. Selanjutnya, variabel TPK bulan sebelumnya dibuat apabila digunakan dalam model.
+
+Pembentukan variabel historis dilakukan secara berurutan agar informasi dari periode mendatang tidak masuk ke dalam variabel masukan periode sebelumnya.
+
+3.7.5 Eksplorasi Data
+
+Eksplorasi data dilakukan untuk memahami karakteristik dataset sebelum pemodelan.
+
+Analisis yang dilakukan meliputi:
+
+1. Menghitung jumlah observasi.
+2. Memeriksa nilai minimum dan maksimum TPK.
+3. Menghitung nilai rata-rata TPK.
+4. Membuat grafik perubahan TPK bulanan.
+5. Mengamati pola perubahan dan kemungkinan pola musiman.
+6. Memeriksa hubungan antara variabel masukan dan TPK.
+
+Hasil eksplorasi digunakan untuk memahami karakteristik data dan membantu menjelaskan hasil pemodelan pada Bab IV.
+
+3.8 Metode Pemodelan
+
+3.8.1 Random Forest Regression
+
+Random Forest Regression merupakan algoritma machine learning yang digunakan untuk memprediksi nilai numerik. Algoritma ini membangun sejumlah pohon keputusan regresi dan menggabungkan hasil prediksi pohon-pohon tersebut.
+
+Pada penelitian ini, Random Forest Regression digunakan untuk memperkirakan TPK hotel berbintang di Provinsi Banten berdasarkan variabel masukan yang telah disiapkan.
+
+Pemilihan algoritma ini didasarkan pada kemampuannya menangani hubungan yang tidak selalu linear antara variabel masukan dan variabel target. Namun, kemampuan model pada dataset penelitian tetap harus dibuktikan melalui pengujian, bukan diasumsikan sejak awal.
+
+3.8.2 Implementasi Algoritma
+
+Implementasi model direncanakan menggunakan bahasa pemrograman Python dengan bantuan pustaka Pandas untuk pengolahan data dan Scikit-learn untuk pembentukan serta evaluasi model.
+
+Tahapan implementasi meliputi:
+
+1. Memuat dataset yang telah dibersihkan.
+2. Menentukan variabel masukan dan variabel target.
+3. Mengurutkan data berdasarkan waktu.
+4. Membagi dataset menjadi data latih dan data uji secara kronologis.
+5. Membentuk model Random Forest Regression menggunakan data latih.
+6. Menghasilkan prediksi terhadap data uji.
+7. Menghitung metrik evaluasi.
+8. Menganalisis perbedaan antara nilai aktual dan nilai prediksi.
+
+Parameter model, termasuk jumlah pohon keputusan (n_estimators), akan ditetapkan dan dicatat pada saat eksperimen dilakukan. Pengaturan parameter tidak akan ditentukan berdasarkan hasil data uji.
+
+3.9 Pembagian Data Latih dan Data Uji
+
+Dataset dibagi menjadi data latih (training data) dan data uji (testing data). Data latih digunakan untuk membangun model, sedangkan data uji digunakan untuk mengukur kemampuan model memprediksi data yang tidak digunakan dalam proses pelatihan.
+
+Penelitian ini menggunakan pembagian data secara kronologis dengan proporsi awal 80% untuk data latih dan 20% untuk data uji.
+
+Data yang lebih lama digunakan sebagai data latih, sedangkan data dari periode yang lebih baru digunakan sebagai data uji. Pembagian ini dipilih karena data penelitian berbentuk urutan waktu.
+
+Pembagian secara kronologis lebih sesuai daripada pembagian acak karena bertujuan menguji kemampuan model dalam memperkirakan periode yang datang setelah periode pelatihan.
+
+Apabila parameter model perlu dioptimalkan, proses tersebut akan dilakukan menggunakan data latih atau validasi yang tidak melibatkan data uji akhir.
+
+3.10 Evaluasi Model
+
+Evaluasi dilakukan dengan membandingkan nilai TPK aktual dan nilai TPK hasil prediksi. Metrik yang digunakan adalah Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), dan koefisien determinasi (R²).
+
+3.10.1 Mean Absolute Error (MAE)
+
+MAE digunakan untuk menghitung rata-rata nilai absolut selisih antara nilai aktual dan nilai prediksi.
+
+Rumus:
+
+MAE = (1/n) × Σ |yᵢ − ŷᵢ|
+
+Keterangan:
+
+n = jumlah data uji.
+
+yᵢ = nilai aktual.
+
+ŷᵢ = nilai prediksi.
+
+Nilai MAE yang lebih kecil menunjukkan bahwa rata-rata kesalahan prediksi lebih rendah.
+
+3.10.2 Root Mean Squared Error (RMSE)
+
+RMSE digunakan untuk mengukur akar dari rata-rata kuadrat selisih antara nilai aktual dan nilai prediksi.
+
+Rumus:
+
+RMSE = √[(1/n) × Σ (yᵢ − ŷᵢ)²]
+
+RMSE memberikan penalti lebih besar terhadap kesalahan prediksi yang besar. Nilai RMSE yang lebih kecil menunjukkan kesalahan prediksi yang lebih rendah.
+
+3.10.3 Koefisien Determinasi (R²)
+
+Koefisien determinasi digunakan untuk mengukur seberapa baik prediksi model menjelaskan variasi nilai target pada data uji.
+
+Rumus:
+
+R² = 1 − [Σ(yᵢ − ŷᵢ)² / Σ(yᵢ − ȳ)²]
+
+Keterangan:
+
+yᵢ = nilai aktual.
+
+ŷᵢ = nilai prediksi.
+
+ȳ = rata-rata nilai aktual pada data uji.
+
+Nilai R² yang mendekati 1 menunjukkan kecocokan prediksi yang lebih baik terhadap variasi data uji. Nilai R² dapat bernilai negatif apabila prediksi model lebih buruk daripada prediksi sederhana yang menggunakan rata-rata nilai aktual data uji.
+
+Hasil evaluasi ketiga metrik akan digunakan secara bersama-sama untuk menilai kinerja model. Penilaian tidak hanya didasarkan pada satu metrik.
+
+3.11 Perangkat Penelitian
+
+Perangkat yang direncanakan untuk digunakan dalam penelitian ini meliputi:
+
+1. Perangkat keras: laptop atau komputer yang mampu menjalankan pengolahan data Python.
+2. Bahasa pemrograman: Python.
+3. Lingkungan pemrograman: Jupyter Notebook atau Google Colab.
+4. Pustaka pengolahan data: Pandas dan NumPy.
+5. Pustaka machine learning: Scikit-learn.
+6. Pustaka visualisasi: Matplotlib.
+7. Sumber data: publikasi dan tabel statistik resmi BPS.
+
+Pemilihan perangkat lunak tersebut mempertimbangkan ketersediaan pustaka pengolahan data dan machine learning yang dapat digunakan tanpa harus membangun algoritma dari awal.
+
+3.12 Tahapan Penelitian
+
+Penelitian dilaksanakan melalui urutan berikut:
+
+1. Identifikasi masalah penelitian.
+2. Studi pustaka.
+3. Penentuan sumber dan periode data.
+4. Pengumpulan data TPK dan variabel pendukung.
+5. Pemeriksaan dan pembersihan data.
+6. Integrasi data dan pembentukan variabel historis.
+7. Eksplorasi data.
+8. Pembagian data latih dan data uji secara kronologis.
+9. Pembentukan model Random Forest Regression.
+10. Prediksi nilai TPK pada data uji.
+11. Evaluasi model menggunakan MAE, RMSE, dan R².
+12. Analisis hasil dan penyusunan kesimpulan.
+
+3.13 Rencana Penyajian Hasil
+
+Hasil penelitian akan disajikan pada Bab IV dalam bentuk tabel dan grafik yang meliputi:
+
+1. Gambaran umum dataset yang digunakan.
+2. Hasil pemeriksaan dan pengolahan data.
+3. Statistik deskriptif variabel penelitian.
+4. Grafik perubahan TPK aktual berdasarkan waktu.
+5. Hasil pembagian data latih dan data uji.
+6. Perbandingan nilai TPK aktual dan prediksi.
+7. Nilai MAE, RMSE, dan R² pada data uji.
+8. Pembahasan hasil evaluasi dan keterbatasan model.
+
+Nilai hasil prediksi dan evaluasi baru akan dicantumkan setelah eksperimen benar-benar dilaksanakan. Dengan demikian, hasil penelitian tidak didasarkan pada angka yang belum diperoleh dari pengujian.
+
+
+
+
+
+
+DAFTAR PUSTAKA
+
+Badan Pusat Statistik. (2025). Tingkat Penghunian Kamar Hotel 2024. Jakarta: Badan Pusat Statistik. https://www.bps.go.id/id/publication/2025/03/27/7b6799d8691464b3b01142a8/occupancy-rate-of-hotel-room-2024.html
+
+Badan Pusat Statistik Provinsi Banten. (2025). Statistik Hotel dan Akomodasi Lainnya Provinsi Banten 2024/2025. Banten: Badan Pusat Statistik Provinsi Banten. https://banten.bps.go.id/id/publication/2025/10/31/00730db0a1eea80eba87fe22/statistik-hotel-dan-akomodasi-lainnya-provinsi-banten-2024-2025.html
+
+Badan Pusat Statistik Provinsi Banten. (2026). Tingkat Penghunian Kamar (TPK) dan Rata-rata Lama Menginap Tamu (RLMT) Hotel Berbintang Menurut Bulan di Provinsi Banten. Banten: Badan Pusat Statistik Provinsi Banten. https://banten.bps.go.id/id/statistics-table/2/MzA5IzI%3D/tingkat-penghunian-kamar-tpk-dan-rata-rata-lama-menginap-tamu-rlmt-hotel-berbintang-menurut-bulan-di-provinsi-banten.html
+
+Kozlovskis, K., Liu, Y., Lace, N., & Meng, Y. (2023). Application of machine learning algorithms to predict hotel occupancy. Journal of Business Economics and Management, 24(3), 594–613. https://doi.org/10.3846/jbem.2023.19775
+
+Scikit-learn developers. (n.d.). RandomForestRegressor. Scikit-learn documentation. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
+
+Pramita, D. A. K., Saraswati, N. W. S., Sandana, I. P. D., Dewi, D. A. P. R., & Krismentari, N. K. B. (2025). Forecasting Hotel Demand with Time Series Prediction Model Using Random Forest Regression. Sinkron: Jurnal dan Penelitian Teknik Informatika. https://doi.org/10.33395/sinkron.v10i1.15655
+
+Forecasting resort hotel tourism demand using deep learning techniques – A systematic literature review. (2023). Heliyon, 9(7), e18385. https://doi.org/10.1016/j.heliyon.2023.e18385
+
