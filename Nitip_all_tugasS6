@@ -1,0 +1,93 @@
+dasar infrastruktur tugas 2
+
+No. 2. Pengelompokan Layanan Perguruan Tinggi Menurut O'Loughlin
+
+Menurut O'Loughlin, layanan dapat dikelompokkan menjadi tiga tipe, yaitu layanan pelanggan (customer services), layanan bisnis (business services), dan layanan teknologi informasi (information technology services). Pengelompokan ini didasarkan pada tujuan layanan, pihak yang dilayani, serta fungsi layanan dalam mendukung kegiatan organisasi.
+
+Berikut pengelompokan layanan digital pada perguruan tinggi:
+
+1. Sistem Pembelajaran Daring (Layanan Pelanggan)
+
+Sistem pembelajaran daring termasuk layanan pelanggan karena digunakan secara langsung oleh mahasiswa dan dosen untuk mendukung proses pembelajaran. Melalui sistem ini, mahasiswa dapat mengakses materi kuliah, mengumpulkan tugas, mengikuti diskusi, dan melaksanakan ujian secara daring. Layanan ini bertujuan meningkatkan kemudahan akses pendidikan dan kualitas pengalaman pengguna.
+
+2. Sistem Informasi Akademik (Layanan Bisnis)
+
+Sistem informasi akademik termasuk layanan bisnis karena mendukung proses operasional utama perguruan tinggi. Sistem ini digunakan untuk mengelola data mahasiswa, registrasi mata kuliah, jadwal kuliah, nilai, dan transkrip akademik. Dengan adanya sistem tersebut, proses administrasi akademik menjadi lebih terstruktur, efisien, dan akurat.
+
+3. Layanan Perpustakaan Digital (Layanan Pelanggan)
+
+Layanan perpustakaan digital termasuk layanan pelanggan karena menyediakan akses langsung kepada mahasiswa dan dosen terhadap sumber informasi akademik. Pengguna dapat mencari dan membaca buku elektronik, jurnal ilmiah, serta referensi lainnya tanpa harus datang ke perpustakaan secara fisik. Layanan ini membantu memenuhi kebutuhan informasi dan mendukung kegiatan belajar serta penelitian.
+
+4. Layanan Keuangan Mahasiswa (Layanan Bisnis)
+
+Layanan keuangan mahasiswa termasuk layanan bisnis karena mendukung proses administrasi dan pengelolaan keuangan perguruan tinggi. Layanan ini dapat digunakan untuk memeriksa tagihan kuliah, melakukan pembayaran, melihat riwayat transaksi, dan memantau status pembayaran. Sistem tersebut membantu meningkatkan transparansi serta efisiensi pengelolaan keuangan.
+
+5. Layanan Teknologi Informasi sebagai Pendukung
+
+Layanan teknologi informasi mencakup infrastruktur dan fasilitas teknis yang memungkinkan seluruh layanan digital tersebut beroperasi. Contohnya adalah server, jaringan internet, pusat data, sistem keamanan informasi, pengelolaan akun pengguna, pencadangan data, dan layanan bantuan teknis.
+
+Layanan teknologi informasi berfungsi menjaga ketersediaan, keamanan, dan keandalan sistem yang digunakan oleh mahasiswa, dosen, serta staf administrasi.
+
+Kesimpulan
+
+Berdasarkan pengelompokan tersebut, sistem pembelajaran daring dan perpustakaan digital termasuk layanan pelanggan karena berorientasi pada pemenuhan kebutuhan pengguna. Sistem informasi akademik dan layanan keuangan mahasiswa termasuk layanan bisnis karena mendukung proses operasional dan administrasi perguruan tinggi. Sementara itu, infrastruktur, jaringan, server, dan dukungan teknis termasuk layanan teknologi informasi karena menyediakan fondasi teknis bagi seluruh layanan digital.
+
+Pengelompokan ini didasarkan pada fungsi utama masing-masing layanan. Dalam praktiknya, satu sistem dapat mendukung lebih dari satu tipe layanan. Sebagai contoh, sistem informasi akademik merupakan layanan bisnis bagi perguruan tinggi, tetapi juga memberikan layanan langsung kepada mahasiswa.
+
+No. 3. Kategori Sistem Operasi untuk Komputer Client dan Server Perusahaan
+
+Sistem operasi merupakan perangkat lunak sistem yang mengelola perangkat keras komputer, memori, penyimpanan, proses, serta perangkat lunak aplikasi. Dalam lingkungan perusahaan, sistem operasi dapat dibedakan berdasarkan perannya, yaitu sistem operasi untuk komputer pengguna (client operating system) dan sistem operasi untuk server (server operating system).
+
+A. Sistem Operasi untuk Komputer Pengguna (Client)
+
+Komputer client digunakan oleh karyawan untuk menjalankan aplikasi administrasi perkantoran, mengakses sistem informasi perusahaan, mengolah dokumen, dan melakukan pekerjaan sehari-hari.
+
+Kategori sistem operasi yang sesuai adalah sistem operasi desktop atau client.
+
+Contoh sistem operasi yang dapat digunakan:
+
+1. Microsoft Windows 11 Pro
+   
+   Windows 11 Pro sesuai digunakan untuk komputer karyawan karena mendukung aplikasi administrasi perkantoran, seperti Microsoft Office, serta berbagai aplikasi bisnis. Sistem operasi ini juga menyediakan fitur keamanan, pengelolaan perangkat melalui kebijakan organisasi, dan dukungan untuk bergabung dengan domain perusahaan melalui infrastruktur yang sesuai.
+
+2. Linux Desktop, seperti Ubuntu Desktop
+   
+   Ubuntu Desktop dapat digunakan sebagai alternatif untuk komputer karyawan, terutama jika perusahaan menggunakan aplikasi berbasis web atau perangkat lunak yang kompatibel dengan Linux. Sistem operasi ini dapat mengurangi biaya lisensi sistem operasi dan menyediakan lingkungan kerja yang stabil. Namun, kompatibilitas aplikasi khusus perusahaan perlu diperiksa terlebih dahulu.
+
+Alasan pemilihan sistem operasi client:
+
+Sistem operasi client harus mudah digunakan, kompatibel dengan aplikasi yang dibutuhkan karyawan, mendukung keamanan perangkat, serta memudahkan pemeliharaan komputer. Pemilihannya perlu mempertimbangkan kebutuhan perangkat lunak, kemampuan perangkat keras, anggaran, dan kompetensi staf teknologi informasi.
+
+B. Sistem Operasi untuk Server Perusahaan
+
+Server digunakan untuk menyediakan layanan terpusat kepada komputer client, seperti pengelolaan basis data, penyimpanan berkas, autentikasi pengguna, aplikasi internal perusahaan, dan layanan jaringan.
+
+Kategori sistem operasi yang sesuai adalah sistem operasi server.
+
+Contoh sistem operasi yang dapat digunakan:
+
+1. Windows Server
+   
+   Windows Server cocok digunakan apabila perusahaan membutuhkan integrasi dengan lingkungan Windows, pengelolaan identitas pengguna melalui Active Directory, kebijakan keamanan terpusat, dan layanan berkas. Sistem operasi ini dapat mendukung aplikasi bisnis yang membutuhkan lingkungan Windows Server.
+
+2. Linux Server, seperti Ubuntu Server
+   
+   Ubuntu Server sesuai digunakan untuk menjalankan aplikasi berbasis web, layanan API, basis data, dan berbagai aplikasi internal perusahaan. Sistem operasi ini mendukung otomatisasi administrasi melalui baris perintah, memiliki ekosistem perangkat lunak server yang luas, dan dapat mengurangi biaya lisensi sistem operasi. Namun, perusahaan tetap perlu memperhitungkan biaya dukungan teknis dan pemeliharaan.
+
+Alasan pemilihan sistem operasi server:
+
+Sistem operasi server harus mampu menyediakan layanan secara stabil, mendukung akses banyak pengguna, memiliki mekanisme keamanan yang memadai, serta memudahkan pencadangan dan pemulihan data. Selain itu, sistem operasi server harus kompatibel dengan perangkat lunak khusus perusahaan dan mampu menangani beban kerja yang dibutuhkan.
+
+C. Rekomendasi Penerapan dalam Perusahaan
+
+Perusahaan dapat menggunakan Windows 11 Pro pada komputer client dan Windows Server pada server apabila sebagian besar aplikasi perusahaan bergantung pada ekosistem Windows. Kombinasi ini memudahkan integrasi dan pengelolaan pengguna dalam lingkungan yang sesuai.
+
+Sebagai alternatif, perusahaan dapat menggunakan Windows 11 Pro pada komputer client dan Ubuntu Server pada server untuk menjalankan aplikasi berbasis web, API, serta basis data yang kompatibel dengan Linux.
+
+Pemilihan tersebut perlu mempertimbangkan kebutuhan aplikasi, keamanan, biaya lisensi, kemampuan administrator, dan rencana pengembangan sistem informasi perusahaan.
+
+Kesimpulan
+
+Sistem operasi untuk komputer client sebaiknya menggunakan kategori sistem operasi desktop, misalnya Windows 11 Pro atau Ubuntu Desktop. Sementara itu, komputer server sebaiknya menggunakan kategori sistem operasi server, misalnya Windows Server atau Ubuntu Server.
+
+Sistem operasi client berfokus pada kebutuhan pengguna dalam menjalankan aplikasi sehari-hari, sedangkan sistem operasi server berfokus pada penyediaan layanan terpusat, pengelolaan sumber daya, keamanan, dan ketersediaan sistem. Pemilihan sistem operasi yang tepat dapat membantu perusahaan meningkatkan efisiensi operasional dan mendukung pengembangan sistem informasi secara berkelanjutan.
