@@ -1,0 +1,365 @@
+Aktivitas pariwisata memiliki keterkaitan dengan kebutuhan masyarakat terhadap sarana akomodasi, termasuk hotel. Tingkat keterisian kamar hotel dapat digunakan sebagai salah satu indikator untuk menggambarkan pemanfaatan fasilitas penginapan sekaligus memberikan gambaran mengenai aktivitas pariwisata di suatu daerah.
+
+Sebagai salah satu provinsi di Indonesia yang memiliki potensi pariwisata dan usaha akomodasi, Banten mengalami perubahan tingkat penghunian kamar hotel dari waktu ke waktu. Berdasarkan informasi yang diterbitkan oleh Badan Pusat Statistik (BPS) Provinsi Banten, tingkat penghunian kamar (TPK) hotel berbintang menunjukkan adanya variasi pada periode pengamatan yang berbeda. Pada Desember 2024, nilai TPK tercatat sebesar 54,63 persen. Angka tersebut lebih rendah 2,82 poin persentase dibandingkan dengan kondisi pada Desember 2023.
+
+Perubahan tingkat hunian juga terlihat dalam perbandingan ant bulan. Pada Mei 2025, TPK hotel berbintang di Provinsi Banten mencapai 48,08 persen, kemudian turun menjadi 46,62 persen pada Juni 2025. Kondisi ini memperlihatkan bahwa tingkat keterisian kamar hotel tidak selalu berada pada nilai yang sama, melainkan mengalami fluktuasi dari satu periode ke periode berikutnya. Perubahan tersebut dapat berkaitan dengan aktivitas pariwisata, jumlah perjalanan wisatawan, serta berbagai faktor lain yang memengaruhi permintaan terhadap layanan akomodasi.
+
+Dinamika tersebut juga terlihat pada data Desember 2025, ketika TPK hotel berbintang di Provinsi Banten mencapai 53,39 persen. Pada periode yang sama, kunjungan wisatawan mancanegara melalui Bandara Internasional Soekarno-Hatta tercatat sebanyak 230.381 kunjungan. Sementara itu, perjalanan wisatawan nusantara yang menjadikan Provinsi Banten sebagai tujuan mencapai 5,19 juta perjalanan. Data tersebut memberikan gambaran mengenai aktivitas perjalanan wisata yang berlangsung bersamaan dengan tingkat pemanfaatan kamar hotel di wilayah tersebut.
+
+Data historis yang diterbitkan oleh BPS Provinsi Banten dapat dimanfaatkan sebagai sumber untuk mengkaji perubahan tingkat penghunian kamar hotel secara sistematis. Informasi yang tersedia mencakup data TPK hotel berbintang berdasarkan bulan dan rata-rata lama menginap tamu. Selain itu, publikasi mengenai statistik hotel dan akomodasi menyediakan informasi pendukung, seperti jumlah usaha akomodasi, kamar, tempat tidur, serta tamu yang menginap. Ketersediaan informasi tersebut memungkinkan dilakukannya penelitian untuk memahami pola perubahan tingkat hunian hotel berdasarkan data yang tercatat pada periode sebelumnya.
+
+Seiring dengan perkembangan teknologi informasi, pengolahan data historis dapat dilakukan menggunakan pendekatan machine learning untuk membangun model prediksi. Pendekatan ini memungkinkan algoritma mengenali pola dan hubungan yang terdapat dalam data yang digunakan selama proses pelatihan. Pola yang telah dipelajari selanjutnya dimanfaatkan untuk memperkirakan nilai pada periode yang belum diketahui. Dengan demikian, penerapan machine learning berpotensi menjadi salah satu pendekatan untuk menganalisis dan memprediksi tingkat penghunian kamar hotel berdasarkan data historis.
+
+Pemanfaatan machine learning dalam memprediksi tingkat hunian hotel juga telah dibahas dalam penelitian terdahulu. Salah satunya adalah penelitian Peng (2024), yang mengkaji penggunaan sejumlah algoritma machine learning untuk memperkirakan tingkat hunian hotel. Penelitian tersebut dapat menjadi salah satu referensi dalam mempertimbangkan penggunaan pendekatan pembelajaran mesin untuk melakukan prediksi pada sektor perhotelan.
+(3)
+
+
+(1)2.3.3 Hotel dan Akomodasi
+
+Hotel termasuk dalam bidang usaha jasa yang menyediakan fasilitas penginapan bagi masyarakat yang membutuhkan tempat untuk bermalam. Dalam sektor pariwisata, keberadaan hotel dan usaha akomodasi lainnya berperan dalam menunjang kebutuhan wisatawan selama melakukan perjalanan. Aktivitas usaha tersebut dapat diamati melalui beberapa indikator, seperti ketersediaan kamar, jumlah tamu yang menginap, durasi menginap, serta persentase penggunaan kamar yang tersedia.
+
+2.3.4 Tingkat Penghunian Kamar
+
+Tingkat Penghunian Kamar (TPK) adalah ukuran berbentuk persentase yang menggambarkan perbandingan antara jumlah kamar hotel yang terpakai dan jumlah kamar yang tersedia dalam periode pengamatan tertentu. Indikator ini dapat digunakan untuk mengetahui sejauh mana fasilitas kamar pada suatu hotel dimanfaatkan. BPS Provinsi Banten secara berkala menerbitkan statistik TPK hotel berbintang berdasarkan periode bulanan. Data tersebut dapat dimanfaatkan untuk mengamati perubahan tingkat hunian hotel dari waktu ke waktu.
+
+2.3.5 Data Mining
+
+Data mining merupakan kegiatan mengolah dan menganalisis sekumpulan data untuk memperoleh pola, keterkaitan, atau informasi yang memiliki nilai guna. Proses ini menggunakan metode tertentu sesuai dengan tujuan analisis yang ingin dicapai. Beberapa penerapan data mining meliputi klasifikasi, pengelompokan (clustering), pencarian pola asosiasi, dan prediksi. Dalam penelitian ini, konsep data mining digunakan sebagai dasar untuk mengidentifikasi pola dari data historis yang selanjutnya dimanfaatkan dalam pengembangan model prediksi tingkat penghunian kamar hotel.
+
+2.3.6 Machine Learning
+
+Machine learning merupakan pendekatan dalam komputasi yang memungkinkan algoritma mempelajari karakteristik dan pola dari data untuk menghasilkan perkiraan atau keluaran tertentu. Proses pembelajaran dilakukan dengan memanfaatkan data sebagai dasar pembentukan model, sehingga sistem tidak harus bergantung sepenuhnya pada aturan yang ditetapkan secara manual. Secara umum, pendekatan machine learning mencakup supervised learning dan unsupervised learning. Penelitian ini menggunakan supervised learning karena proses pelatihan model memanfaatkan data historis yang telah memiliki nilai target, yaitu tingkat penghunian kamar hotel. Melalui proses tersebut, model diharapkan mampu mempelajari hubungan antara variabel masukan dan nilai TPK yang ingin diprediksi.
+
+2.3.7 Prediksi
+
+Prediksi adalah kegiatan memperkirakan nilai atau keadaan yang berpotensi terjadi dengan memanfaatkan informasi dan pola yang diperoleh dari data sebelumnya. Hasil prediksi tidak selalu menggambarkan kondisi yang pasti terjadi, tetapi dapat digunakan sebagai bahan pertimbangan berdasarkan pola yang berhasil dipelajari oleh model. Dalam penelitian ini, prediksi diarahkan pada perkiraan tingkat penghunian kamar hotel di Provinsi Banten dengan menggunakan data historis yang telah ditentukan sebagai variabel masukan dalam proses pemodelan.
+
+2.3.8 Data Historis Pariwisata
+
+Data historis pariwisata merupakan kumpulan informasi yang menggambarkan aktivitas pariwisata pada periode yang telah berlalu. Informasi tersebut dapat mencakup jumlah kunjungan wisatawan, tingkat penghunian kamar hotel, rata-rata lama menginap, serta indikator lain yang berkaitan dengan kegiatan pariwisata. BPS Provinsi Banten menyediakan berbagai data statistik mengenai pariwisata dan perhotelan yang dapat digunakan untuk keperluan analisis. Data TPK hotel berbintang disajikan berdasarkan bulan, sedangkan publikasi statistik hotel dan akomodasi turut menyediakan informasi mengenai jumlah usaha akomodasi, kamar, tempat tidur, dan tamu. Ketersediaan data tersebut dapat mendukung penelitian yang bertujuan mengidentifikasi pola perubahan tingkat hunian hotel berdasarkan catatan pada periode sebelumnya.
+
+2.3.9 Preprocessing Data
+
+Preprocessing data merupakan tahapan penyiapan data sebelum digunakan untuk membangun dan mengevaluasi model machine learning. Pada tahap ini, data diperiksa untuk mengetahui kelengkapan, kesesuaian format, serta kemungkinan adanya nilai yang tidak valid atau tidak konsisten. Proses penyiapan juga dapat mencakup pembersihan data, penanganan nilai kosong, transformasi variabel, dan penyesuaian struktur dataset dengan kebutuhan algoritma yang digunakan. Tahapan ini diperlukan untuk memastikan bahwa data yang digunakan dalam pelatihan dan pengujian model telah memenuhi kebutuhan analisis. Dengan demikian, proses pemodelan dapat dilakukan secara lebih terstruktur dan hasil evaluasinya dapat ditafsirkan dengan tepat.
+
+
+(13)Pembagian dataset merupakan tahapan penting dalam pengembangan model machine learning. Data yang tersedia dipisahkan menjadi data pelatihan dan data pengujian agar kemampuan model dalam menghasilkan prediksi dapat dinilai menggunakan data yang tidak digunakan selama proses pelatihan. Dengan cara ini, evaluasi dapat memberikan gambaran mengenai kemampuan model dalam menangani data di luar data yang dipelajarinya.
+
+2.3.11 Algoritma Machine Learning
+
+Algoritma machine learning adalah metode yang digunakan untuk mempelajari pola dan karakteristik data melalui proses komputasi sehingga terbentuk suatu model. Pemilihan algoritma perlu mempertimbangkan jenis data, karakteristik permasalahan, serta tujuan yang ingin dicapai dalam penelitian. Pada penelitian ini, algoritma yang digunakan untuk memprediksi tingkat penghunian kamar hotel diterapkan pada data historis yang telah melalui tahap persiapan. Selanjutnya, kinerja model dianalisis melalui pengujian menggunakan data yang telah dipisahkan sebelumnya. Hasil pengujian tersebut menjadi dasar untuk mengetahui sejauh mana model mampu menghasilkan prediksi yang mendekati nilai aktual.
+
+2.3.12 Evaluasi Model
+
+Evaluasi model dilakukan untuk mengetahui tingkat ketepatan hasil prediksi yang dihasilkan oleh algoritma machine learning. Dalam penelitian ini, variabel yang diprediksi berupa nilai numerik tingkat penghunian kamar (TPK), sehingga evaluasi dapat dilakukan menggunakan sejumlah metrik yang sesuai untuk permasalahan regresi. Metrik yang digunakan meliputi:
+
+1. Mean Absolute Error (MAE)
+   
+   MAE digunakan untuk menghitung rata-rata selisih absolut antara nilai aktual dan nilai hasil prediksi. Nilai MAE yang semakin kecil menunjukkan bahwa rata-rata kesalahan prediksi semakin rendah.
+
+2. Mean Squared Error (MSE)
+   
+   MSE mengukur rata-rata kuadrat selisih antara nilai aktual dan hasil prediksi. Karena kesalahan dikuadratkan, kesalahan yang lebih besar akan memberikan kontribusi yang lebih besar terhadap nilai metrik ini. Nilai MSE yang lebih rendah menunjukkan kesalahan prediksi yang lebih kecil.
+
+3. Root Mean Squared Error (RMSE)
+   
+   RMSE diperoleh dengan menghitung akar kuadrat dari nilai MSE. Metrik ini digunakan untuk menggambarkan besarnya kesalahan prediksi dalam satuan yang sama dengan variabel target. Dalam penelitian ini, RMSE menunjukkan besarnya kesalahan prediksi TPK dalam satuan poin persentase. Semakin kecil nilai RMSE, semakin rendah tingkat kesalahan prediksi berdasarkan ukuran tersebut.
+
+
+
+(9)Penelitian ini menerapkan metode kuantitatif dengan memanfaatkan data berbentuk numerik yang diperoleh dari publikasi resmi, khususnya data Tingkat Penghunian Kamar (TPK) hotel dan indikator pariwisata yang relevan. Pendekatan prediktif digunakan untuk mengidentifikasi pola pada data periode sebelumnya, kemudian memanfaatkan pola tersebut untuk memperkirakan nilai TPK pada periode yang menjadi sasaran prediksi.
+
+Metode pemodelan yang digunakan adalah Random Forest Regression. Algoritma ini bekerja dengan membangun beberapa pohon keputusan untuk permasalahan regresi, kemudian menggabungkan hasil dari pohon-pohon tersebut guna memperoleh nilai prediksi akhir. Pelaksanaan penelitian mencakup pengumpulan data, persiapan dan eksplorasi data, pembangunan model, pengujian, pengukuran kinerja model, serta pembahasan hasil prediksi.
+
+3.2 Objek Penelitian
+
+Fokus penelitian ini adalah Tingkat Penghunian Kamar (TPK) hotel berbintang di Provinsi Banten yang disajikan dalam bentuk data bulanan. TPK dipilih sebagai variabel target karena menunjukkan persentase kamar hotel yang digunakan dibandingkan dengan jumlah kamar yang tersedia dalam periode tertentu. Data tersebut digunakan untuk mengamati perubahan tingkat hunian dari bulan ke bulan sekaligus menjadi dasar dalam menyusun model prediksi.
+
+Ruang lingkup penelitian dibatasi pada data tingkat provinsi di Banten. Pembatasan ini dilakukan agar sumber data, cakupan wilayah, dan periode pengamatan tetap seragam sehingga proses pengolahan serta analisis dapat dilaksanakan secara terstruktur.
+
+3.3 Lokasi dan Periode Penelitian
+
+Penelitian ini berfokus pada Provinsi Banten dengan menggunakan data statistik perhotelan yang diterbitkan oleh Badan Pusat Statistik (BPS). Periode pengamatan mencakup Januari 2022 hingga Desember 2024, dengan data disusun berdasarkan urutan bulan. Rentang waktu tersebut digunakan untuk mempelajari pola perubahan TPK dan menyediakan data historis bagi proses pembentukan serta pengujian model prediksi menggunakan algoritma Random Forest Regression.
+
+
+(14)Periode pengamatan dalam penelitian ini berlangsung selama 36 bulan, yaitu sejak Januari 2022 hingga Desember 2024. Data yang terkumpul selanjutnya melalui tahap pemeriksaan dan penyiapan sebelum digunakan dalam proses pemodelan. Pembentukan variabel berdasarkan periode sebelumnya juga memengaruhi jumlah data yang dapat dimanfaatkan. Oleh sebab itu, jumlah observasi akhir ditentukan berdasarkan hasil pengolahan dataset dan ketersediaan nilai yang diperlukan untuk setiap variabel penelitian.
+
+3.4 Jenis dan Sumber Data
+
+Data yang digunakan dalam penelitian ini merupakan data sekunder, yaitu data yang sebelumnya telah dihimpun dan diterbitkan oleh lembaga atau pihak tertentu, kemudian dimanfaatkan kembali untuk mendukung kegiatan penelitian. Sumber utama data berasal dari Badan Pusat Statistik (BPS), khususnya publikasi statistik resmi yang memuat informasi mengenai perhotelan dan pariwisata di Provinsi Banten.
+
+Data yang menjadi bagian dari penelitian ini meliputi beberapa komponen berikut.
+
+1. Data Tingkat Penghunian Kamar (TPK), yaitu data bulanan hotel berbintang di Provinsi Banten yang digunakan sebagai variabel target dalam penelitian.
+
+2. Data rata-rata lama menginap tamu hotel, yang dapat digunakan sebagai variabel tambahan apabila tersedia secara lengkap dan konsisten selama periode pengamatan serta benar-benar dimasukkan ke dalam model.
+
+3. Data waktu pengamatan, berupa informasi tahun dan bulan yang digunakan untuk menunjukkan urutan waktu setiap observasi.
+
+4. Data TPK periode sebelumnya, yaitu nilai TPK dari bulan terdahulu yang dibentuk melalui pengolahan data historis. Variabel ini digunakan sebagai fitur masukan untuk membantu model mempelajari pola perubahan tingkat penghunian kamar.
+
+Seluruh data yang digunakan disusun berdasarkan urutan waktu agar hubungan antara periode sebelumnya dan periode yang diprediksi tetap terjaga. Setelah proses pemeriksaan dan pengolahan selesai, dataset disiapkan untuk tahap pelatihan serta pengujian model Random Forest Regression.
+
+
+
+(16)Penggabungan data yang berasal dari beberapa sumber dilakukan dengan mempertimbangkan kesesuaian definisi variabel, rentang waktu, dan cakupan pengukuran. Langkah ini diperlukan agar data yang digunakan memiliki karakteristik yang sebanding dan tidak menimbulkan ketidaksesuaian dalam proses analisis.
+
+3.5 Variabel Penelitian
+
+Variabel dalam penelitian ini dikelompokkan menjadi dua kategori, yaitu variabel target dan variabel masukan. Variabel target merupakan nilai yang ingin diperkirakan oleh model, sedangkan variabel masukan berfungsi sebagai informasi yang digunakan algoritma untuk mempelajari pola dari data historis.
+
+3.5.1 Variabel Target
+
+Variabel target dalam penelitian ini adalah Tingkat Penghunian Kamar (TPK) hotel berbintang di Provinsi Banten yang dinyatakan dalam persentase. Nilai tersebut menunjukkan tingkat pemanfaatan kamar hotel pada periode pengamatan tertentu. Dalam proses pemodelan menggunakan algoritma Random Forest Regression, TPK berperan sebagai variabel dependen yang menjadi sasaran prediksi berdasarkan informasi dari variabel masukan.
+
+3.5.2 Variabel Masukan
+
+Variabel masukan merupakan sejumlah informasi yang digunakan oleh model untuk mempelajari pola perubahan TPK. Variabel yang direncanakan dalam penelitian ini meliputi:
+
+1. Tahun pengamatan, yaitu informasi mengenai tahun pencatatan data yang digunakan untuk mengidentifikasi periode tahunan dalam dataset.
+
+2. Bulan pengamatan, yaitu penanda bulan pada setiap observasi yang dapat membantu model mengenali kemungkinan pola perubahan TPK berdasarkan waktu dalam satu tahun.
+
+3. TPK bulan sebelumnya, yaitu nilai tingkat penghunian kamar pada satu bulan sebelum periode yang diprediksi. Variabel ini digunakan untuk memberikan informasi historis mengenai kondisi hunian hotel pada periode terdekat.
+
+4. Rata-rata lama menginap tamu, yaitu informasi mengenai durasi rata-rata tamu menginap di hotel. Variabel ini dapat dipertimbangkan sebagai fitur tambahan apabila datanya tersedia secara konsisten, memiliki cakupan yang sesuai, dan benar-benar digunakan dalam proses pemodelan.
+
+Pemilihan variabel masukan disesuaikan dengan ketersediaan data dan kebutuhan algoritma. Seluruh variabel yang digunakan harus memiliki definisi dan periode pengamatan yang jelas agar proses pelatihan serta evaluasi model dapat dilakukan secara tepat.
+
+
+
+(15)Apabila data untuk suatu variabel tidak tersedia secara lengkap atau tidak memenuhi kesesuaian yang diperlukan, variabel tersebut tidak digunakan dalam proses pemodelan. Keputusan ini dilakukan agar model dibangun berdasarkan data yang dapat dipertanggungjawabkan dan sesuai dengan kebutuhan analisis.
+
+Variabel TPK periode sebelumnya dibentuk melalui teknik lag feature, yaitu menggunakan nilai pada periode terdahulu sebagai informasi untuk periode berikutnya. Sebagai ilustrasi, nilai TPK pada Januari digunakan sebagai salah satu variabel masukan untuk memperkirakan TPK pada Februari. Proses ini dilakukan dengan tetap memperhatikan urutan waktu dalam dataset.
+
+Dalam penyusunan model prediksi, setiap fitur harus berasal dari informasi yang secara realistis telah tersedia ketika prediksi dibuat. Oleh karena itu, nilai TPK aktual pada periode yang sedang diperkirakan tidak boleh digunakan sebagai fitur untuk memprediksi periode tersebut. Penggunaan informasi yang belum tersedia pada saat prediksi dapat menimbulkan data leakage, yaitu kondisi ketika informasi yang seharusnya tidak diketahui model justru memengaruhi proses pelatihan atau evaluasi sehingga hasil pengukuran kinerja menjadi tidak mencerminkan kemampuan prediksi yang sebenarnya.
+
+3.6 Teknik Pengumpulan Data
+
+Pengumpulan bahan penelitian dilakukan melalui dokumentasi dan studi pustaka. Dokumentasi digunakan untuk memperoleh data numerik dari sumber resmi, sedangkan studi pustaka dilakukan untuk mendapatkan landasan teori dan referensi ilmiah yang mendukung metode serta pembahasan penelitian.
+
+3.6.1 Teknik Dokumentasi
+
+Teknik dokumentasi diterapkan dengan menghimpun data dari tabel statistik dan publikasi resmi yang diterbitkan oleh Badan Pusat Statistik (BPS). Informasi yang dikumpulkan terutama berupa data Tingkat Penghunian Kamar (TPK) hotel berbintang di Provinsi Banten, disertai indikator pendukung apabila tersedia dan sesuai dengan kebutuhan penelitian.
+
+Proses pengumpulan data dilakukan melalui tahapan berikut.
+
+1. Mengunjungi situs resmi BPS Provinsi Banten untuk menemukan tabel statistik dan publikasi yang relevan dengan topik penelitian.
+
+
+
+(4)Salah satu kajian yang berkaitan dengan penelitian ini adalah studi Kozlovskis, Liu, Lace, dan Meng (2023), yang mengulas penggunaan beberapa algoritma machine learning untuk memperkirakan tingkat hunian hotel. Kajian terhadap penelitian terdahulu tersebut dimanfaatkan sebagai bahan pertimbangan dalam menentukan pendekatan pemodelan, sekaligus sebagai dasar untuk menyusun tahapan penelitian yang selaras dengan tujuan yang ingin dicapai.
+
+3.7 Teknik Pengolahan Data
+
+Data yang telah diperoleh selanjutnya diproses melalui serangkaian tahapan untuk memastikan kesesuaiannya dengan kebutuhan analisis. Proses ini mencakup pemeriksaan awal, pembersihan, penggabungan data apabila diperlukan, pembentukan variabel historis, dan eksplorasi karakteristik dataset sebelum model dibangun.
+
+3.7.1 Pemeriksaan Data
+
+Pemeriksaan awal dilakukan untuk mengidentifikasi berbagai permasalahan yang mungkin terdapat dalam dataset. Hal-hal yang diperiksa meliputi keberadaan nilai kosong, pencatatan data secara berulang, ketidaksesuaian format tanggal, serta perbedaan satuan pengukuran antarvariabel. Apabila ditemukan ketidaksesuaian, setiap kasus ditelaah terlebih dahulu dengan mengacu pada informasi yang tersedia dari sumber data sebelum proses pemodelan dilanjutkan.
+
+3.7.2 Pembersihan Data
+
+Pembersihan data bertujuan memperbaiki kualitas dataset agar dapat digunakan dalam proses analisis. Tahapan ini dapat mencakup penyeragaman format pencatatan, penghapusan data duplikat yang tidak diperlukan, serta penanganan nilai yang tidak tersedia. Metode penanganan ditentukan berdasarkan karakteristik data dan informasi pendukung yang dapat diverifikasi. Nilai kosong tidak diisi secara sembarangan karena tindakan tersebut berpotensi mengubah karakteristik data dan memengaruhi hasil prediksi.
+
+3.7.3 Integrasi Data
+
+Integrasi data dilakukan apabila penelitian menggunakan informasi yang berasal dari lebih dari satu sumber. Penggabungan dilakukan dengan mencocokkan periode tahun dan bulan agar setiap variabel merujuk pada rentang waktu pengamatan yang sama. Sebelum digabungkan, kesesuaian definisi, satuan, serta cakupan pelaporan setiap variabel diperiksa terlebih dahulu. Apabila ditemukan perbedaan yang dapat memengaruhi interpretasi data, diperlukan pemeriksaan lebih lanjut sebelum data digunakan dalam analisis.
+
+3.7.4 Pembentukan Variabel Historis
+
+Pembentukan variabel historis dilakukan dengan menyiapkan informasi waktu berdasarkan tahun dan bulan pengamatan. Selain itu, fitur TPK periode sebelumnya dibentuk melalui teknik lag apabila fitur tersebut digunakan dalam model. Sebagai contoh, nilai TPK pada Januari dipasangkan dengan data periode Februari untuk membantu memperkirakan tingkat penghunian kamar pada Februari. Proses pembentukan fitur harus mengikuti urutan kronologis agar informasi dari periode mendatang tidak digunakan untuk memprediksi periode yang lebih awal. Langkah ini juga diperlukan untuk menghindari kebocoran data (data leakage) dalam proses pemodelan.
+
+3.7.5 Eksplorasi Data
+
+Eksplorasi data dilakukan untuk memperoleh gambaran mengenai karakteristik dan pola yang terdapat dalam dataset sebelum algoritma diterapkan. Tahap ini membantu peneliti memahami variasi nilai TPK, perubahan antarperiode, serta karakteristik data yang perlu diperhatikan dalam proses pemodelan. Hasil eksplorasi selanjutnya digunakan sebagai bahan pertimbangan dalam menyiapkan dataset dan menentukan langkah analisis yang sesuai dengan tujuan penelitian.
+
+
+
+
+(18)Pengaturan parameter model dilakukan tanpa menjadikan hasil pengujian sebagai dasar penentuan, sehingga proses evaluasi dapat menggambarkan kemampuan model secara lebih objektif.
+
+3.9 Pembagian Data Latih dan Data Uji
+
+Data penelitian dibagi menjadi dua kelompok, yaitu data latih (training data) dan data uji (testing data). Data latih digunakan dalam proses pembentukan model Random Forest Regression, sedangkan data uji dimanfaatkan untuk menilai kemampuan model dalam menghasilkan prediksi terhadap data yang belum pernah digunakan selama pelatihan.
+
+Pembagian data dilakukan dengan mempertimbangkan urutan waktu. Pada tahap awal, proporsi pembagian direncanakan sebesar 80% untuk data latih dan 20% untuk data uji. Data dari periode yang lebih awal ditempatkan pada kelompok pelatihan, sementara data dari periode berikutnya digunakan untuk pengujian.
+
+Pendekatan kronologis dipilih karena data tingkat penghunian kamar hotel memiliki karakteristik runtut waktu. Dengan metode ini, pengujian dapat memberikan gambaran mengenai kemampuan model dalam memprediksi nilai pada periode mendatang berdasarkan informasi dari periode sebelumnya. Oleh karena itu, pembagian secara kronologis dinilai lebih sesuai dibandingkan pembagian acak yang berpotensi mencampurkan data dari periode berbeda ke dalam kelompok pelatihan dan pengujian.
+
+
+
+(19)8. Membagi dataset menjadi data latih dan data uji berdasarkan urutan waktu secara kronologis.
+
+9. Membangun model prediksi menggunakan algoritma Random Forest Regression dengan memanfaatkan data latih.
+
+10. Menghasilkan prediksi tingkat penghunian kamar (TPK) hotel berdasarkan data uji.
+
+11. Mengukur kinerja model melalui perhitungan nilai Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), dan koefisien determinasi (R²).
+
+12. Menginterpretasikan hasil pengujian model dan menyusun kesimpulan berdasarkan hasil penelitian.
+
+3.13 Rencana Penyajian Hasil
+
+Hasil penelitian akan diuraikan pada Bab IV melalui tabel, grafik, dan penjelasan deskriptif. Penyajian tersebut bertujuan mempermudah pembaca dalam memahami data yang digunakan, proses pembentukan model, serta hasil prediksi dan evaluasi kinerja algoritma. Adapun hasil penelitian yang akan disajikan meliputi:
+
+1. Deskripsi dataset, yang menjelaskan karakteristik data TPK hotel berbintang di Provinsi Banten selama periode Januari 2022 hingga Desember 2024.
+
+2. Hasil pengolahan data, yang mencakup pemeriksaan data, penyusunan variabel, dan pembentukan fitur berdasarkan nilai TPK periode sebelumnya (lag-1).
+
+3. Pembagian data penelitian, yang memperlihatkan jumlah data latih dan data uji berdasarkan urutan waktu.
+
+4. Hasil prediksi model, yang membandingkan nilai TPK aktual dengan nilai prediksi yang dihasilkan oleh algoritma Random Forest Regression.
+
+5. Evaluasi kinerja model, yang menyajikan hasil perhitungan MAE, RMSE, dan R² untuk mengetahui tingkat kesalahan serta kemampuan model dalam menghasilkan prediksi.
+
+6. Pembahasan hasil penelitian, yang menguraikan temuan dari proses pengujian, keterbatasan model, dan kesimpulan mengenai penerapan Random Forest Regression dalam memprediksi TPK hotel berbintang di Provinsi Banten.
+
+
+
+
+(11)Penelitian ini memanfaatkan data sekunder yang bersumber dari publikasi resmi Badan Pusat Statistik (BPS). Data yang digunakan berupa tingkat penghunian kamar (TPK), yaitu indikator yang menunjukkan persentase kamar hotel yang telah digunakan dalam kurun waktu tertentu. Nilai TPK dapat memberikan gambaran tentang tingkat pemanfaatan fasilitas hotel. Pergerakan nilai tersebut setiap bulan juga dapat digunakan untuk mengamati perubahan pola hunian hotel dari waktu ke waktu.
+
+Data yang dianalisis merupakan data bulanan hotel berbintang di Provinsi Banten selama Januari 2022 hingga Desember 2024. Rentang waktu tersebut menghasilkan 36 observasi sebelum dilakukan pengolahan. Selanjutnya, penelitian membentuk variabel yang memuat nilai TPK dari satu bulan sebelumnya sebagai fitur prediksi (lag-1). Karena observasi pertama tidak memiliki nilai TPK dari periode sebelumnya dalam rentang data yang tersedia, jumlah observasi yang dapat digunakan dalam pemodelan menjadi 35.
+
+Algoritma Random Forest Regression digunakan untuk memperkirakan nilai TPK berdasarkan nomor bulan dan nilai TPK pada bulan sebelumnya. Kemampuan model dalam menghasilkan prediksi kemudian dinilai melalui tiga metrik evaluasi, yaitu Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), dan koefisien determinasi (R²). Hasil evaluasi tersebut digunakan untuk mengetahui besarnya kesalahan prediksi dan menilai kemampuan model dalam menjelaskan variasi nilai TPK pada data pengujian.
+
+4.2 Pengumpulan Data Penelitian
+
+Data penelitian dikumpulkan melalui penelusuran tabel statistik dan publikasi resmi Badan Pusat Statistik (BPS) yang menyajikan informasi tingkat penghunian kamar hotel berbintang di Provinsi Banten. Data yang digunakan mencakup periode Januari 2022 sampai dengan Desember 2024. Seluruh nilai TPK dicatat berdasarkan periode bulanan, kemudian disusun secara kronologis agar urutan waktu tetap terjaga selama proses pengolahan dan pemodelan.
+
+Penggunaan publikasi BPS sebagai sumber data bertujuan memperoleh informasi statistik yang terdokumentasi dan dapat ditelusuri kembali. Setelah proses pengumpulan selesai, data disiapkan untuk tahap pemeriksaan, pengolahan, pembentukan fitur prediksi, serta pengujian model Random Forest Regression.
+
+
+
+(2)Dengan dilakukannya pembentukan variabel historis, jumlah data yang memenuhi kebutuhan pemodelan menjadi 35 observasi. Data tersebut selanjutnya digunakan dalam proses pembentukan dan pengujian model prediksi.
+
+4.2.2 Data TPK Hotel Berbintang
+
+Data yang digunakan dalam penelitian ini memperlihatkan adanya variasi tingkat penghunian kamar hotel berbintang di Provinsi Banten selama periode 2022–2024. Pada tahun 2022, nilai TPK bulanan tercatat antara 41,64% hingga 57,00%. Memasuki tahun 2023, rentang nilainya berada pada 44,02% sampai 59,06%. Adapun pada tahun 2024, nilai TPK berkisar antara 45,99% dan 58,23%.
+
+Perbedaan rentang nilai tersebut memperlihatkan bahwa tingkat pemanfaatan kamar hotel mengalami perubahan selama periode pengamatan. Nilai TPK dapat meningkat atau menurun dari satu bulan ke bulan berikutnya, sehingga pola hunian hotel tidak dapat dianggap selalu konstan. Variasi ini menjadi salah satu pertimbangan dalam penerapan algoritma Random Forest Regression untuk mempelajari hubungan antara informasi historis dan nilai TPK yang ingin diprediksi.
+
+4.3 Hasil Pengolahan Data
+
+Sebelum digunakan untuk membangun model prediksi, dataset terlebih dahulu melalui tahap pengolahan agar struktur dan variabelnya sesuai dengan kebutuhan penelitian. Proses ini mencakup pengurutan data berdasarkan periode pengamatan, penentuan variabel bulan, pembentukan fitur TPK periode sebelumnya, serta penetapan nilai TPK sebagai variabel target.
+
+Pengolahan dilakukan dengan tetap mempertahankan urutan waktu. Hal tersebut diperlukan karena penelitian menggunakan data bulanan yang memiliki keterkaitan antara satu periode dan periode berikutnya. Hasil dari tahapan ini menjadi masukan bagi proses pelatihan dan pengujian model Random Forest Regression.
+
+4.3.1 Penyusunan Data Berdasarkan Waktu
+
+Seluruh data TPK diurutkan berdasarkan periode pengamatan, dimulai dari Januari 2022 dan berakhir pada Desember 2024. Pengurutan ini dilakukan untuk menjaga kesesuaian antara nilai TPK pada suatu bulan dan nilai dari bulan sebelumnya ketika fitur historis dibentuk.
+
+Urutan data juga dipertahankan pada saat pembagian dataset. Data dari periode yang lebih awal ditempatkan sebagai data latih, sedangkan data dari periode yang lebih baru digunakan sebagai data uji. Dengan pendekatan tersebut, proses evaluasi dapat menggambarkan kemampuan model dalam memperkirakan nilai TPK pada periode yang berada setelah rentang data pelatihan.
+
+4.3.2 Pembentukan Variabel Historis
+
+Fitur historis dibentuk dengan menggunakan nilai TPK satu bulan sebelumnya atau disebut lag-1. Proses ini dilakukan dengan menggeser data TPK sebanyak satu periode sehingga setiap baris memiliki informasi mengenai tingkat penghunian kamar pada bulan sebelumnya.
+
+Sebagai ilustrasi, nilai TPK Januari 2022 menjadi fitur historis untuk pengamatan Februari 2022. Berikutnya, nilai TPK Februari 2022 digunakan sebagai fitur historis untuk pengamatan Maret 2022. Proses yang sama diterapkan secara berurutan hingga periode terakhir dalam dataset.
+
+Penggunaan fitur lag-1 bertujuan memberikan informasi historis kepada model agar pola perubahan TPK dapat dipelajari selama proses pelatihan. Dalam penyusunan variabel masukan, nilai TPK aktual pada bulan yang menjadi target prediksi tidak digunakan sebagai fitur untuk memprediksi bulan tersebut. Langkah ini diterapkan untuk menghindari kebocoran data (data leakage) yang dapat menyebabkan hasil evaluasi tidak mencerminkan kemampuan prediksi model secara tepat.
+
+Karena pengamatan Januari 2022 belum memiliki nilai TPK dari bulan sebelumnya dalam dataset penelitian, baris tersebut tidak dapat digunakan setelah pembentukan fitur lag-1. Dengan demikian, jumlah data yang tersedia untuk tahap pemodelan menjadi 35 observasi.
+
+4.3.3 Statistik Deskriptif
+
+Statistik deskriptif digunakan untuk memberikan gambaran mengenai karakteristik data TPK hotel berbintang di Provinsi Banten selama periode penelitian. Analisis ini membantu mengidentifikasi rentang nilai, kecenderungan umum, serta variasi tingkat penghunian kamar dari Januari 2022 hingga Desember 2024.
+
+Hasil statistik deskriptif dapat digunakan sebagai informasi awal sebelum model Random Forest Regression dibentuk. Melalui analisis tersebut, karakteristik data dapat dipahami dengan lebih baik sehingga hasil prediksi dan evaluasi model dapat ditafsirkan berdasarkan kondisi dataset yang digunakan.
+
+
+
+(8)Selisih absolut paling rendah dalam hasil pengujian ditemukan pada September 2024, dengan nilai sekitar 0,77 poin persentase. Pada periode tersebut, model menghasilkan prediksi TPK sebesar 53,89%, sedangkan nilai aktual yang tercatat adalah 53,12%. Kedekatan kedua nilai ini menunjukkan bahwa model mampu memberikan perkiraan yang cukup akurat pada bulan tersebut.
+
+Meskipun demikian, tingkat kesalahan prediksi tidak menunjukkan besaran yang sama pada seluruh periode pengujian. Pada beberapa bulan, nilai prediksi mendekati data aktual, sedangkan pada bulan lainnya terdapat selisih yang lebih besar. Kondisi ini memperlihatkan bahwa model yang digunakan masih memiliki keterbatasan dalam mengikuti perubahan tingkat penghunian kamar secara konsisten. Oleh sebab itu, penilaian terhadap kemampuan model tidak cukup hanya berdasarkan satu periode, tetapi perlu mempertimbangkan seluruh data uji melalui metrik evaluasi yang telah ditentukan.
+
+4.7 Evaluasi Kinerja Model
+
+Kinerja algoritma Random Forest Regression dievaluasi menggunakan tiga ukuran, yaitu Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), dan koefisien determinasi (R²). Setiap metrik digunakan untuk melihat aspek yang berbeda dari hasil prediksi, sehingga penilaian terhadap kemampuan model dapat dilakukan secara lebih menyeluruh.
+
+MAE menunjukkan rata-rata besarnya selisih absolut antara nilai aktual dan hasil prediksi. RMSE mengukur besarnya kesalahan prediksi dengan memberikan pengaruh lebih besar terhadap kesalahan yang bernilai tinggi. Sementara itu, R² digunakan untuk menilai kemampuan model dalam menjelaskan variasi nilai aktual pada data pengujian. Ketiga ukuran tersebut menjadi dasar untuk meninjau ketepatan prediksi sekaligus mengidentifikasi keterbatasan model.
+
+4.7.1 Hasil Mean Absolute Error
+
+Berdasarkan pengujian terhadap tujuh observasi pada data uji, nilai Mean Absolute Error (MAE) yang diperoleh adalah sekitar 2,27 poin persentase. Hasil tersebut menunjukkan bahwa rata-rata jarak absolut antara nilai TPK aktual dan nilai yang diperkirakan oleh model mencapai sekitar 2,27 poin persentase.
+
+Nilai MAE tersebut memberikan gambaran mengenai besarnya kesalahan prediksi secara rata-rata pada periode pengujian. Semakin kecil nilai MAE, semakin dekat hasil prediksi terhadap nilai aktual secara rata-rata. Namun, hasil ini tetap perlu ditinjau bersama nilai RMSE dan R² agar kualitas model tidak dinilai hanya berdasarkan satu ukuran evaluasi.
+
+
+(7)Meskipun demikian, evaluasi terhadap performa model tidak cukup dilakukan dengan melihat satu metrik saja. Karakteristik data uji serta hasil pengukuran lainnya perlu diperhatikan agar kesimpulan yang diperoleh dapat menggambarkan kemampuan model secara lebih menyeluruh.
+
+4.7.2 Hasil Root Mean Squared Error
+
+Perhitungan Root Mean Squared Error (RMSE) menghasilkan nilai sekitar 2,82 poin persentase. Nilai tersebut lebih tinggi dibandingkan MAE yang mencapai 2,27 poin persentase. Perbedaan ini terjadi karena RMSE memberikan pengaruh lebih besar terhadap kesalahan prediksi yang nilainya tinggi.
+
+Salah satu kondisi yang turut memengaruhi hasil evaluasi adalah adanya selisih prediksi yang relatif besar pada Juni 2024. Hal tersebut memperlihatkan bahwa model belum menghasilkan perkiraan dengan tingkat kesalahan yang seragam pada seluruh periode pengujian. Oleh karena itu, nilai MAE yang diperoleh belum cukup untuk menyatakan bahwa model memiliki performa prediksi yang baik. Hasil RMSE perlu turut dipertimbangkan untuk memperoleh gambaran yang lebih lengkap mengenai kesalahan model.
+
+4.7.3 Hasil Koefisien Determinasi
+
+Berdasarkan hasil pengujian, nilai koefisien determinasi (R²) yang diperoleh adalah sekitar −1,86. Nilai negatif ini menunjukkan bahwa kinerja model pada data uji lebih rendah dibandingkan pendekatan pembanding sederhana yang menggunakan rata-rata nilai TPK aktual pada data uji sebagai prediksi untuk setiap observasi.
+
+Hasil tersebut tidak dapat dijadikan dasar untuk menyimpulkan bahwa algoritma Random Forest Regression selalu tidak sesuai untuk memprediksi tingkat penghunian kamar hotel. Temuan ini lebih menunjukkan bahwa konfigurasi model awal dan fitur yang digunakan dalam penelitian belum mampu menghasilkan prediksi yang memadai pada periode pengujian.
+
+Selain konfigurasi model dan pemilihan fitur, jumlah observasi yang terbatas juga perlu menjadi pertimbangan ketika menafsirkan nilai R². Data uji dalam penelitian ini hanya terdiri atas tujuh observasi, sehingga kesalahan pada beberapa periode dapat memberikan pengaruh yang cukup besar terhadap hasil evaluasi. Dengan demikian, nilai R² negatif menjadi indikasi bahwa model awal masih memerlukan pengembangan dan pengujian lebih lanjut sebelum dapat digunakan untuk menghasilkan prediksi TPK yang lebih andal.
+
+
+(12)Secara umum, hasil pengujian memperlihatkan bahwa model awal Random Forest Regression belum mampu memberikan hasil prediksi yang memuaskan pada data uji. Walaupun terdapat beberapa periode dengan nilai prediksi yang mendekati data aktual, kesalahan yang muncul pada periode lainnya serta nilai koefisien determinasi (R²) yang negatif menunjukkan bahwa kemampuan model masih perlu ditingkatkan. Oleh karena itu, hasil ini menjadi dasar untuk mengevaluasi keterbatasan model dan mempertimbangkan pengembangan pada penelitian selanjutnya.
+
+4.8 Pembahasan Hasil Penelitian
+
+4.8.1 Pembahasan Karakteristik Data
+
+Berdasarkan hasil pengamatan selama periode 2022–2024, tingkat penghunian kamar hotel berbintang di Provinsi Banten menunjukkan perubahan dari bulan ke bulan. Nilai minimum, maksimum, dan rata-rata TPK memberikan gambaran bahwa pemanfaatan kamar hotel tidak berlangsung pada tingkat yang tetap sepanjang periode penelitian. Kondisi tersebut menjadi salah satu tantangan dalam proses pemodelan karena algoritma perlu mempelajari pola perubahan berdasarkan informasi historis yang tersedia.
+
+Dataset penelitian pada awalnya terdiri atas 36 observasi bulanan. Setelah fitur historis berupa nilai TPK satu bulan sebelumnya dibentuk, jumlah data yang dapat digunakan untuk pemodelan berkurang menjadi 35 observasi. Jumlah tersebut relatif terbatas untuk mempelajari pola perubahan TPK secara lebih luas. Oleh sebab itu, hasil evaluasi perlu ditafsirkan dengan mempertimbangkan ukuran dataset yang digunakan.
+
+Keterbatasan jumlah pengamatan juga dapat memengaruhi kemampuan model dalam mengenali variasi pola hunian hotel. Selain itu, perubahan TPK mungkin berkaitan dengan faktor lain yang tidak dimasukkan ke dalam model, seperti musim liburan, kegiatan pariwisata, acara tertentu, atau kondisi ekonomi. Karena variabel-variabel tersebut tidak digunakan sebagai masukan dalam pemodelan ini, pengaruhnya belum dapat dianalisis secara langsung. Hal ini menjadi salah satu aspek yang perlu diperhatikan ketika membahas keterbatasan hasil prediksi.
+
+
+
+(5) 
+
+Pada penelitian ini, algoritma Random Forest Regression digunakan untuk memprediksi tingkat penghunian kamar hotel berbintang di Provinsi Banten dengan memanfaatkan nomor bulan dan nilai TPK dari periode sebelumnya sebagai variabel masukan. Berdasarkan hasil pengujian, model yang dibangun belum menunjukkan kemampuan prediksi yang optimal pada data uji.
+
+Nilai MAE sebesar 2,27 dan RMSE sebesar 2,82 poin persentase menunjukkan bahwa hasil prediksi masih memiliki selisih terhadap nilai TPK aktual. Selain itu, nilai R² yang negatif mengindikasikan bahwa kinerja model pada data pengujian masih berada di bawah pendekatan pembanding sederhana yang menggunakan rata-rata nilai aktual pada data uji.
+
+Temuan tersebut memperlihatkan bahwa penerapan algoritma Random Forest Regression tidak secara otomatis menghasilkan prediksi dengan tingkat ketepatan yang tinggi. Performa model turut dipengaruhi oleh ketersediaan data, kualitas data yang digunakan, pemilihan fitur, pengaturan parameter, serta pola yang dapat dipelajari dari dataset. Dalam penelitian ini, penggunaan dua fitur, yaitu nomor bulan dan TPK periode sebelumnya, belum mampu menghasilkan prediksi yang memadai pada periode pengujian.
+
+Berdasarkan hasil tersebut, belum terdapat bukti yang cukup untuk menyatakan bahwa Random Forest Regression merupakan metode terbaik dalam memprediksi TPK hotel berbintang di Provinsi Banten. Hasil penelitian ini lebih tepat dipandang sebagai evaluasi awal terhadap penerapan algoritma tersebut dengan konfigurasi dan variabel yang digunakan. Pengembangan model melalui penambahan data historis, pemilihan fitur yang relevan, dan pengujian konfigurasi parameter yang berbeda dapat dipertimbangkan dalam penelitian selanjutnya.
+
+4.8.3 Evaluasi terhadap Tujuan Penelitian
+
+Evaluasi terhadap tujuan penelitian dilakukan dengan meninjau kembali tahapan yang telah dilaksanakan dan hasil yang diperoleh selama proses penelitian.
+
+Tujuan pertama adalah mempersiapkan data historis tingkat penghunian kamar hotel agar dapat digunakan dalam proses pemodelan. Tahapan ini telah dilaksanakan melalui pengumpulan data bulanan, penyusunan data berdasarkan urutan waktu, pembentukan fitur TPK periode sebelumnya, serta penyiapan dataset untuk proses pelatihan dan pengujian.
+
+Tujuan kedua adalah menerapkan algoritma Random Forest Regression untuk menghasilkan prediksi TPK hotel berbintang di Provinsi Banten. Tujuan tersebut telah dilaksanakan melalui pembangunan model dengan menggunakan nomor bulan dan nilai TPK satu bulan sebelumnya sebagai variabel masukan. Model kemudian digunakan untuk menghasilkan prediksi pada data uji yang tidak disertakan dalam proses pelatihan.
+
+Tujuan ketiga adalah mengevaluasi kinerja model prediksi berdasarkan metrik yang telah ditentukan. Evaluasi dilakukan menggunakan Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), dan koefisien determinasi (R²). Hasil pengujian menghasilkan MAE sebesar 2,27, RMSE sebesar 2,82 poin persentase, dan R² sebesar −1,86.
+
+Hasil evaluasi menunjukkan bahwa seluruh tahapan utama penelitian telah dilaksanakan, tetapi kemampuan prediksi model awal masih belum memadai. Dengan demikian, tujuan penerapan dan pengukuran kinerja algoritma telah tercapai dari sisi pelaksanaan metode, sedangkan hasil pengujiannya menunjukkan adanya keterbatasan yang perlu diperhatikan dalam menilai kemampuan model untuk memprediksi TPK.
+
+
+
+
+(6)Perbandingan antara nilai TPK aktual dan hasil prediksi dilakukan terhadap tujuh observasi yang termasuk dalam data uji. Hasil perbandingan tersebut kemudian dianalisis bersama nilai metrik evaluasi untuk memperoleh gambaran mengenai kemampuan model dalam memperkirakan tingkat penghunian kamar hotel.
+
+Berdasarkan tahapan yang telah dilaksanakan, penerapan algoritma Random Forest Regression beserta evaluasi kinerjanya telah dilakukan sebagai pengujian awal. Meskipun demikian, hasil yang diperoleh belum memberikan dasar yang cukup untuk merekomendasikan model sebagai alat prediksi operasional. Diperlukan perbaikan terhadap model dan pengujian tambahan agar kemampuan prediksinya dapat dinilai secara lebih menyeluruh.
+
+4.8.4 Keterbatasan Penelitian
+
+Dalam pelaksanaannya, penelitian ini memiliki sejumlah keterbatasan yang perlu dipertimbangkan ketika menafsirkan hasil pengujian.
+
+Pertama, jumlah data yang tersedia untuk proses pemodelan masih terbatas. Dataset awal mencakup 36 observasi bulanan selama periode Januari 2022 hingga Desember 2024. Setelah fitur yang berisi nilai TPK bulan sebelumnya dibentuk, jumlah data yang dapat digunakan berkurang menjadi 35 observasi. Kondisi ini membatasi banyaknya pola historis yang dapat dipelajari oleh model.
+
+Kedua, variabel masukan yang digunakan dalam model awal hanya mencakup nomor bulan dan nilai TPK dari satu bulan sebelumnya. Sejumlah variabel lain yang berpotensi berkaitan dengan tingkat penghunian kamar, seperti rata-rata lama menginap tamu dan indikator aktivitas pariwisata, belum disertakan dalam pemodelan. Akibatnya, informasi yang digunakan model untuk menghasilkan prediksi masih terbatas pada kedua fitur tersebut.
+
+Ketiga, evaluasi dilakukan terhadap tujuh observasi data uji yang mencakup periode Juni hingga Desember 2024. Jumlah pengamatan tersebut relatif kecil untuk menggambarkan kemampuan model dalam menghadapi beragam kondisi perubahan TPK. Oleh karena itu, hasil evaluasi perlu ditafsirkan secara hati-hati dan belum dapat dijadikan gambaran menyeluruh mengenai kinerja model pada periode yang lebih panjang.
+
+Keempat, konfigurasi parameter Random Forest Regression yang digunakan masih merupakan pengaturan awal dan belum melalui proses optimasi secara sistematis. Dengan demikian, hasil evaluasi yang diperoleh hanya menggambarkan kinerja model pada konfigurasi tersebut, bukan menunjukkan batas kemampuan terbaik yang dapat dicapai oleh algoritma ini.
+
+Kelima, penelitian berfokus pada pemanfaatan pola historis untuk memperkirakan nilai TPK pada periode berikutnya. Pendekatan ini digunakan untuk mempelajari pola prediksi, bukan untuk membuktikan adanya hubungan sebab-akibat antara indikator pariwisata dan perubahan tingkat penghunian kamar hotel. Pengaruh faktor lain di luar variabel yang digunakan belum dapat dijelaskan secara langsung melalui model ini.
+
+Berbagai keterbatasan tersebut menjadi pertimbangan penting dalam memahami hasil penelitian. Pada pengembangan selanjutnya, penelitian dapat diperluas dengan menambahkan data dari periode yang lebih panjang, mempertimbangkan variabel masukan yang relevan, menguji konfigurasi parameter yang berbeda, serta melakukan evaluasi menggunakan rentang data uji yang lebih luas. Langkah tersebut diharapkan dapat memberikan penilaian yang lebih kuat terhadap kemampuan model dalam memprediksi TPK hotel berbintang di Provinsi Banten.
+
