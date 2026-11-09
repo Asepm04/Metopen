@@ -1,0 +1,339 @@
+JAWABAN TUGAS TUTORIAL KE-3
+
+Mata Kuliah: Data Mining
+Kode Mata Kuliah: STSI4307
+
+SOAL 1. ASSOCIATION RULE DENGAN ALGORITMA FP-GROWTH
+
+Diketahui:
+
+- Jumlah transaksi = 5
+- Minimum Support = 60%
+- Minimum Confidence = 80%
+
+A. Menentukan Frekuensi Setiap Item
+
+Berdasarkan data transaksi, diperoleh frekuensi kemunculan setiap item sebagai berikut:
+
+Item| Jumlah Kemunculan| Support
+Susu (Su)| 4| 80%
+Sereal (Se)| 4| 80%
+Keju (Ke)| 3| 60%
+Tepung (Te)| 3| 60%
+Gula (Gu)| 2| 40%
+Mentega (Me)| 1| 20%
+
+Rumus Support:
+
+Support(A) = (Jumlah transaksi yang mengandung A / Total transaksi) × 100%
+
+Contoh:
+
+Support(Susu) = (4/5) × 100% = 80%.
+
+Berdasarkan minimum support 60%, item yang memenuhi syarat adalah Susu, Sereal, Keju, dan Tepung.
+
+B. Menentukan Frequent 2-Itemset
+
+Kombinasi item yang memenuhi minimum support 60% adalah:
+
+Kombinasi Item| Jumlah| Support
+Susu – Sereal| 4| 80%
+Susu – Keju| 3| 60%
+Sereal – Keju| 3| 60%
+
+Kombinasi lainnya tidak memenuhi minimum support sehingga tidak digunakan dalam pembentukan aturan asosiasi.
+
+C. Menentukan Frequent 3-Itemset
+
+Kombinasi tiga item yang memenuhi minimum support adalah:
+
+Kombinasi Item| Jumlah| Support
+Susu – Sereal – Keju| 3| 60%
+
+Dengan demikian, kombinasi Susu, Sereal, dan Keju merupakan frequent 3-itemset.
+
+D. Menentukan Association Rule
+
+Rumus Confidence:
+
+Confidence(A → B) = Support(A ∪ B) / Support(A) × 100%.
+
+Aturan asosiasi yang memenuhi minimum confidence 80% adalah:
+
+1. Susu → Sereal
+   
+   Confidence = (4/4) × 100% = 100%.
+
+2. Sereal → Susu
+   
+   Confidence = (4/4) × 100% = 100%.
+
+3. Keju → Susu
+   
+   Confidence = (3/3) × 100% = 100%.
+
+4. Keju → Sereal
+   
+   Confidence = (3/3) × 100% = 100%.
+
+5. Susu dan Keju → Sereal
+   
+   Confidence = (3/3) × 100% = 100%.
+
+6. Sereal dan Keju → Susu
+   
+   Confidence = (3/3) × 100% = 100%.
+
+7. Keju → Susu dan Sereal
+   
+   Confidence = (3/3) × 100% = 100%.
+
+E. Kesimpulan
+
+Berdasarkan penerapan algoritma FP-Growth dengan minimum support 60% dan minimum confidence 80%, diperoleh beberapa aturan asosiasi yang memenuhi kriteria.
+
+Aturan asosiasi tersebut menunjukkan bahwa pembelian Susu memiliki hubungan yang kuat dengan pembelian Sereal. Selain itu, pembelian Keju juga memiliki hubungan yang kuat dengan pembelian Susu dan Sereal.
+
+Hasil ini dapat dimanfaatkan oleh pihak supermarket untuk mengatur penempatan produk, membuat paket promosi, serta menentukan strategi pemasaran berdasarkan pola pembelian konsumen.
+
+---
+
+SOAL 2. KLASTERISASI MENGGUNAKAN ALGORITMA K-MEANS
+
+Diketahui:
+
+- Jumlah cluster (K) = 2.
+- Centroid awal adalah Rini dan Cici.
+- Atribut yang digunakan adalah UTS, Tugas, dan UAS.
+
+A. Menentukan Centroid Awal
+
+Berdasarkan tabel soal, diperoleh centroid awal:
+
+Cluster 1 (Rini):
+C1 = (85, 90, 70)
+
+Cluster 2 (Cici):
+C2 = (52, 66, 66)
+
+B. Menghitung Jarak Setiap Mahasiswa
+
+Perhitungan menggunakan rumus Euclidean Distance:
+
+d(x,y) = √[(x1-y1)² + (x2-y2)² + (x3-y3)²]
+
+Contoh perhitungan mahasiswa Rian terhadap centroid Rini:
+
+d(Rian,C1) = √[(70-85)² + (78-90)² + (80-70)²]
+
+= √(225 + 144 + 100)
+
+= √469
+
+= 21,66.
+
+Perhitungan mahasiswa Rian terhadap centroid Cici:
+
+d(Rian,C2) = √[(70-52)² + (78-66)² + (80-66)²]
+
+= √(324 + 144 + 196)
+
+= √664
+
+= 25,77.
+
+Karena jarak Rian ke centroid Rini lebih kecil, maka Rian masuk Cluster 1.
+
+C. Hasil Perhitungan Iterasi Pertama
+
+Nama| Jarak C1| Jarak C2| Cluster
+Rini| 0,00| 41,00| C1
+Rian| 21,66| 25,77| C1
+Jihan| 26,93| 33,56| C1
+Ayu| 17,69| 25,81| C1
+Bayu| 48,31| 22,56| C2
+Cici| 41,00| 0,00| C2
+Didi| 17,38| 31,58| C1
+Bagus| 15,91| 35,21| C1
+Rifka| 29,50| 19,26| C2
+Hani| 35,06| 9,38| C2
+
+D. Menghitung Centroid Baru
+
+Centroid baru diperoleh dengan menghitung nilai rata-rata setiap atribut pada masing-masing cluster.
+
+Cluster 1 terdiri dari:
+Rini, Rian, Jihan, Ayu, Didi, dan Bagus.
+
+Centroid baru C1:
+
+UTS = (85+70+85+73+76+82)/6 = 78,50.
+
+Tugas = (90+78+65+78+80+78)/6 = 78,17.
+
+UAS = (70+80+60+75+81+80)/6 = 74,33.
+
+Jadi:
+
+C1 = (78,50; 78,17; 74,33).
+
+Cluster 2 terdiri dari:
+Bayu, Cici, Rifka, dan Hani.
+
+Centroid baru C2:
+
+UTS = (60+52+71+58)/4 = 60,25.
+
+Tugas = (55+66+65+70)/4 = 64.
+
+UAS = (48+66+63+60)/4 = 59,25.
+
+Jadi:
+
+C2 = (60,25; 64; 59,25).
+
+E. Iterasi Kedua
+
+Setelah centroid diperbarui, dilakukan perhitungan jarak kembali menggunakan centroid baru.
+
+Nama| Jarak C1| Jarak C2| Cluster
+Rini| 14,18| 37,47| C1
+Rian| 10,22| 26,86| C1
+Jihan| 20,52| 24,78| C1
+Ayu| 5,54| 24,63| C1
+Bayu| 39,65| 14,41| C2
+Cici| 30,33| 10,85| C2
+Didi| 7,35| 31,26| C1
+Bagus| 6,66| 33,16| C1
+Rifka| 18,92| 11,43| C2
+Hani| 26,31| 6,45| C2
+
+Hasil pengelompokan pada iterasi kedua sama dengan iterasi pertama. Dengan demikian, proses clustering dihentikan karena tidak terjadi perubahan anggota cluster.
+
+F. Hasil Akhir K-Means
+
+Cluster 1:
+
+1. Rini
+2. Rian
+3. Jihan
+4. Ayu
+5. Didi
+6. Bagus
+
+Cluster 2:
+
+1. Bayu
+2. Cici
+3. Rifka
+4. Hani
+
+G. Kesimpulan
+
+Berdasarkan hasil perhitungan algoritma K-Means dengan jumlah cluster sebanyak 2, mahasiswa berhasil dikelompokkan menjadi dua kelompok berdasarkan nilai UTS, Tugas, dan UAS.
+
+Cluster 1 terdiri dari enam mahasiswa dengan rata-rata nilai yang relatif lebih tinggi, sedangkan Cluster 2 terdiri dari empat mahasiswa dengan rata-rata nilai yang relatif lebih rendah.
+
+Pengelompokan ini dapat digunakan untuk mengetahui karakteristik pencapaian akademik mahasiswa sehingga dosen dapat menentukan strategi pembelajaran dan pendampingan yang sesuai.
+
+---
+
+SOAL 3. HIERARCHICAL AGGLOMERATIVE CLUSTERING SINGLE LINKAGE
+
+Diketahui:
+
+- Metode clustering: Hierarchical Agglomerative Clustering.
+- Metode linkage: Single Linkage.
+- Metrik jarak: Manhattan Distance.
+
+A. Menghitung Jarak Manhattan
+
+Rumus Manhattan Distance:
+
+d(X,Y) = |X1-Y1| + |X2-Y2| + |X3-Y3|.
+
+Contoh perhitungan jarak antara Roy dan Rudi:
+
+Roy = (89, 85, 73)
+
+Rudi = (70, 72, 80)
+
+d(Roy,Rudi) = |89-70| + |85-72| + |73-80|
+
+= 19 + 13 + 7
+
+= 39.
+
+Jadi, jarak Manhattan antara Roy dan Rudi adalah 39.
+
+B. Tahapan Hierarchical Clustering Single Linkage
+
+Metode Single Linkage menggunakan jarak terkecil antara dua anggota cluster untuk menentukan penggabungan cluster.
+
+Berdasarkan perhitungan jarak Manhattan seluruh mahasiswa, diperoleh tahapan penggabungan sebagai berikut:
+
+Iterasi| Cluster yang Digabung| Jarak
+1| Juwita – Dani| 12
+2| Cecep – Hafiz| 12
+3| Bagus – (Juwita, Dani)| 15
+4| Rudi – Ayu| 15
+5| Roy – (Bagus, Juwita, Dani)| 16
+6| (Rudi, Ayu) – (Cecep, Hafiz, Bagus, Juwita, Dani, Roy)| 18
+7| Ratna – Cluster hasil iterasi 6| 18
+8| Bayu – (Cecep, Hafiz)| 21
+9| Cluster hasil iterasi 7 – Cluster hasil iterasi 8| 28
+
+C. Penjelasan Proses Penggabungan
+
+1. Penggabungan pertama dilakukan antara Juwita dan Dani karena memiliki jarak Manhattan terkecil, yaitu 12.
+
+2. Penggabungan kedua dilakukan antara Cecep dan Hafiz dengan jarak 12.
+
+3. Selanjutnya, Bagus digabungkan dengan cluster Juwita dan Dani karena memiliki jarak terdekat sebesar 15.
+
+4. Rudi dan Ayu kemudian digabungkan menjadi satu cluster dengan jarak 15.
+
+5. Roy digabungkan dengan cluster Bagus, Juwita, dan Dani pada jarak 16.
+
+6. Cluster Rudi dan Ayu digabungkan dengan cluster yang terdiri dari Roy, Bagus, Juwita, Dani, Cecep, dan Hafiz pada jarak 18.
+
+7. Ratna kemudian bergabung dengan cluster tersebut pada jarak 18.
+
+8. Bayu bergabung dengan cluster Cecep dan Hafiz pada jarak 21.
+
+9. Terakhir, kedua cluster besar tersebut digabungkan menjadi satu cluster dengan jarak 28.
+
+D. Dendrogram
+
+Gambaran urutan penggabungan dendrogram berdasarkan hasil perhitungan:
+
+- Juwita bergabung dengan Dani pada jarak 12.
+- Cecep bergabung dengan Hafiz pada jarak 12.
+- Bagus bergabung dengan kelompok Juwita dan Dani pada jarak 15.
+- Rudi bergabung dengan Ayu pada jarak 15.
+- Roy bergabung dengan kelompok Bagus, Juwita, dan Dani pada jarak 16.
+- Kedua kelompok besar bergabung pada jarak 18.
+- Ratna bergabung pada jarak 18.
+- Bayu bergabung dengan kelompok Cecep dan Hafiz pada jarak 21.
+- Seluruh anggota akhirnya bergabung menjadi satu cluster pada jarak 28.
+
+E. Kesimpulan
+
+Berdasarkan penerapan metode Hierarchical Agglomerative Clustering dengan teknik Single Linkage dan metrik Manhattan Distance, proses pengelompokan dilakukan secara bertahap dengan menggabungkan dua objek atau cluster yang memiliki jarak paling kecil.
+
+Hasil pengelompokan menunjukkan bahwa mahasiswa yang memiliki kemiripan nilai akademik akan bergabung terlebih dahulu sebelum membentuk kelompok yang lebih besar.
+
+Jarak penggabungan terakhir adalah 28, yang menunjukkan bahwa seluruh mahasiswa telah tergabung menjadi satu cluster. Hasil clustering ini dapat digunakan untuk menganalisis kemiripan kemampuan akademik mahasiswa berdasarkan nilai Matematika, Bahasa Inggris, dan Bahasa Indonesia.
+
+---
+
+KESIMPULAN AKHIR
+
+Ketiga metode Data Mining yang digunakan memiliki tujuan berbeda.
+
+1. FP-Growth digunakan untuk menemukan pola hubungan antarproduk berdasarkan transaksi pembelian.
+2. K-Means digunakan untuk mengelompokkan mahasiswa berdasarkan kemiripan nilai akademik.
+3. Hierarchical Agglomerative Clustering digunakan untuk membentuk kelompok berdasarkan tingkat kemiripan menggunakan jarak Manhattan dan metode Single Linkage.
+
+Ketiga metode tersebut dapat membantu proses pengambilan keputusan berdasarkan pola dan karakteristik data.
